@@ -1,0 +1,147 @@
+body{
+    background-color: #D5D5D5;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color: #E9E7EA;
+    width:1000px;
+    max-width: 100%;
+    margin:auto;
+    padding:50px;
+    box-shadow: 0 10px 50px #858585;
+    display: grid;
+   grid-template-columns: 35% 60%;
+   column-gap: 5%; 
+   row-gap: 30px;
+}
+
+.avatar img{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.avatar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.name{
+    padding-left: 30px;
+    border-left:1px solid #000;
+}
+.name h1{
+    font-weight: 500;
+    font-size:40px;
+    margin:0px 0 5px ;
+}
+.name .specialize{
+    margin:0 40px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.name .contact a{
+    margin-right: 20px;
+}
+
+.name .contact img{
+    width: 25px;
+    height:25px;
+}
+.name .contact{
+    margin: 2rem 2.5rem;
+
+}
+.name .contact span{
+    display: inline-block;
+    background-color: #000;
+    width:20px;
+    height:20px;
+    color:#fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: small;
+    margin-right: 20px;
+}
+.name .contact li{
+    padding:5px 0;
+    transform: translate(-40px);
+    background-color: #E9E7EA;
+}
+.info ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    line-height: 30px;
+} 
+
+h2{
+    padding:0;
+    margin: 0 0 20px 0;
+}
+.intro{
+    padding-left: 30px;
+    border-left: 1px solid #000;
+    text-align: justify;
+}
+.experience{
+    text-align: right;
+}
+.experience h4{
+    margin:20px 0 10px;
+}
+.skill{
+    margin-top:  50px;
+}
+.experience ul{
+    padding:0;
+    margin: 0;
+list-style: none;
+}
+.experience li{
+    padding:10px 0;
+}
+.right-side{
+    padding-left: 30px;
+    text-align: justify;
+    border-left: 1px solid #000;
+}
+
+.project{
+    padding-left: 30px;
+    text-align: justify;
+}
+.project h4{
+    margin:20px 0 10px;
+}
+.project .item{
+    position: relative;
+}
+
+.skill{
+    padding-left: 30px;
+    text-align: justify;
+}
+.skill .hardskill a{
+    margin:0 10px;
+}
+.skill .softskill{
+    margin-top: 30px;
+}
+.education{
+    margin-top: 50px;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+/* .project .item::before{
+    position: absolute;
+    width:13px;
+    height: 13px;
+    background-color: #000;
+    content: '';
+    border-radius: 50%;
+    left: -37px;
+} */
