@@ -20,6 +20,7 @@ body{
     height:200px;
     object-fit: cover;
     border-radius: 50%;
+    margin-right: 6dvh;
 }
 .avatar{
     display: flex;
@@ -28,12 +29,14 @@ body{
 }
 .name{
     padding-left: 30px;
+    padding-top: 4.5dvh;
     border-left:1px solid #000;
 }
 .name h1{
     font-weight: 500;
     font-size:40px;
     margin:0px 0 5px ;
+    padding-left: 4.7dvh;
 }
 .name .specialize{
     margin:0 40px;
@@ -42,7 +45,8 @@ body{
 }
 
 .name .contact a{
-    margin-right: 20px;
+    
+    margin-right: 3dvh;
 }
 
 .name .contact img{
@@ -50,7 +54,7 @@ body{
     height:25px;
 }
 .name .contact{
-    margin: 2rem 2.5rem;
+    margin: 1.2rem 2.5rem;
 
 }
 .name .contact span{
@@ -80,11 +84,12 @@ h2{
     margin: 0 0 20px 0;
 }
 .intro{
-    padding-left: 30px;
+    padding-left: 60px;
     border-left: 1px solid #000;
     text-align: justify;
 }
 .experience{
+
     text-align: right;
 }
 .experience h4{
@@ -101,9 +106,12 @@ list-style: none;
 .experience li{
     padding:10px 0;
 }
+.softskill{
+    margin:75px 10px;
+   
+}
 .right-side{
     padding-left: 30px;
-    text-align: justify;
     border-left: 1px solid #000;
 }
 
@@ -125,9 +133,7 @@ list-style: none;
 .skill .hardskill a{
     margin:0 10px;
 }
-.skill .softskill{
-    margin-top: 30px;
-}
+
 .education{
     margin-top: 50px;
     padding-left: 30px;
